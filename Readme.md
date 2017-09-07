@@ -1,0 +1,1 @@
+see https://forge.typo3.org/issues/82330

@@ -1,0 +1,25 @@
+{
+  "name": "etobi/bug-endtime",
+  "type": "typo3-cms-extension",
+  "description": "Demonstration for TCA endtime bug",
+  "authors": [
+    {
+      "name": "Tobias Liebig",
+      "email": "work@etobi.de",
+      "role": "Developer",
+      "homepage": "http://etobi.de"
+    }
+  ],
+  "license": "GPL-2.0+",
+  "require": {
+    "typo3/cms-core": "^7.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Etobi\\BugEndtime\\": "Classes"
+    }
+  },
+  "replace": {
+    "bug_endtime": "*"
+  }
+}
